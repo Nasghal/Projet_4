@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    color: white;
+    height: 200px;
+
+    & p {
+        font-size: 18px;
+        font-family: 'Shrikhand';
+        margin: 15px 0 5px 20px;
+    }
+
+    & a {
+        text-decoration: none;
+        margin: 15px 0 0 20px;
+    }
+
+    & p, a {
+        color: white;
+    }
+
+    & a .icon {
+        padding-right: 10px;
+    }
+}
