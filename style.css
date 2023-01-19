@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 375px;
+  font-family: "Roboto";
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+}
+header .box__elem1 p {
+  font-family: "Shrikhand";
+  font-size: 30px;
+  font-weight: 400;
+}
+header .box__elem1 {
+  padding: 20px 0 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+header .box__elem2 {
+  height: 30px;
+  padding: 10px 0 10px 0;
+  background-color: #EAEAEA;
+}
+header .fa-solid {
+  padding-right: 15px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #F7F7F7;
+}
+.section1 h1 {
+  width: 275px;
+  margin-top: 40px;
+  padding: 0 20px 10px 20px;
+}
+.section1 p {
+  font-weight: 300;
+  width: 315px;
+  height: 45px;
+}
+.section1 button {
+  width: 220px;
+  height: 50px;
+  border-radius: 25px;
+  border-color: transparent;
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 16px;
+  margin: 30px 0 40px 0;
+}
+
+.section2 {
+  height: 420px;
+}
+.section2 h2 {
+  margin: 45px 0 25px 20px;
+}
+.section2 .section2__elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+}
+.section2 .section2__elements .align__button {
+  display: flex;
+  align-items: center;
+}
+.section2 .section2__elements .number {
+  position: absolute;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 25px;
+  padding: 5px;
+  color: #ffffff;
+  background: #9356DC;
+}
+.section2 a {
+  text-decoration: none;
+  color: Primary/2;
+}
+.section2 .section2__elements .icon {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  height: 75px;
+  background: #F7F7F7;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.section2 .section2__elements .icon:hover {
+  background-color: #F5EDFF;
+}
+.section2 .section2__elements .fa-solid {
+  color: #7E7E7E;
+  padding: 0 25px 0 35px;
+}
+.section2 .section2__elements p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section3 {
+  background-color: #F7F7F7;
+  padding-bottom: 50px;
+}
+.section3 h2 {
+  padding: 50px 0 0 20px;
+}
+.section3 .card {
+  width: 90%;
+  height: 250px;
+  margin: 20px 20px 0 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: white;
+}
+.section3 .card img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section3 h3, .section3 p {
+  margin-left: 10px;
+}
+.section3 p {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  color: white;
+  height: 200px;
+}
+footer p {
+  font-size: 18px;
+  font-family: "Shrikhand";
+  margin: 15px 0 5px 20px;
+}
+footer a {
+  text-decoration: none;
+  margin: 15px 0 0 20px;
+}
+footer p, footer a {
+  color: white;
+}
+footer a .icon {
+  padding-right: 10px;
+}/*# sourceMappingURL=style.css.map */
