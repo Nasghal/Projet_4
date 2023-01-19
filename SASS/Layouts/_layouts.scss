@@ -1,3 +1,36 @@
+header {
+    @include position;
+
+    & .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 375px;  
+    }
+
+    & .box__elem1 p {
+        font-family: 'Shrikhand';
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    & .box__elem1 { 
+        padding: 20px 0 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        z-index: 1;
+    }
+
+    & .box__elem2 {
+        height: 30px;
+        padding: 10px 0 10px 0;
+        background-color: #EAEAEA;
+    }
+
+    & .fa-solid {
+        padding-right: 15px
+    }
+}
+
 footer {
     display: flex;
     flex-direction: column;
