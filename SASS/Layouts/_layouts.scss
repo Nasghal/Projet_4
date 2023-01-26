@@ -2,9 +2,7 @@ header {
     @include position;
 
     & .box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include position--2;
         width: 375px;  
     }
 
@@ -23,19 +21,18 @@ header {
     & .box__elem2 {
         height: 30px;
         padding: 10px 0 10px 0;
-        background-color: #EAEAEA;
+        background-color: $c_white--fou;
     }
 
     & .fa-solid {
-        padding-right: 15px
+        padding-right: 15px;
     }
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #353535;
-    color: white;
+    @include position--5;
+    background-color: $c_darkgray--scd;
+    color: $c_white;
     height: 200px;
 
     & p {
@@ -50,7 +47,7 @@ footer {
     }
 
     & p, a {
-        color: white;
+        color: $c_white;
     }
 
     & a .icon {

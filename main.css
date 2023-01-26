@@ -8,6 +8,12 @@ body {
   font-family: "Roboto";
 }
 
+mixine position--2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -42,7 +48,7 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #353535;
-  color: white;
+  color: #ffffff;
   height: 200px;
 }
 footer p {
@@ -55,7 +61,7 @@ footer a {
   margin: 15px 0 0 20px;
 }
 footer p, footer a {
-  color: white;
+  color: #ffffff;
 }
 footer a .icon {
   padding-right: 10px;
@@ -68,7 +74,7 @@ button {
   border-color: transparent;
   background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   margin: 30px 0 40px 0;
 }
@@ -123,7 +129,7 @@ button {
 }
 .section2 a {
   text-decoration: none;
-  color: Primary/2;
+  color: #000000;
 }
 .section2 .section2__elements .icon {
   display: flex;
@@ -159,7 +165,7 @@ button {
   margin: 20px 20px 0 20px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .section3 .card img {
   border-radius: 15px 15px 0 0;

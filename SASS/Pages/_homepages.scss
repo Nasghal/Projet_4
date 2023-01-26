@@ -1,7 +1,7 @@
 .section1 {
     @include position;
     text-align: center;
-    background-color: #F7F7F7;
+    background-color: $c_white--scd;
 
     & h1 {
         width: 275px;
@@ -29,46 +29,42 @@
         height: 300px;
 
         & .align__button {
-            display: flex;
-            align-items: center;
+            @include position--4;
         }
 
         & .number {
             position: absolute;
             left: 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include position--2;
             width: 15px;
             height: 15px;
             border-radius: 25px;
             padding: 5px;
             color: $c_white;
-            background: #9356DC;
+            background: $c_pink--purple;
         }
     }
 
     & a {
         text-decoration: none;
-        color: Primary/2;
+        color: $c_black;
     }
 
     & .section2__elements .icon {
-        display: flex;
-        align-items: center;
+        @include position--4;
         width: 320px;
         height: 75px;
-        background: #F7F7F7;
+        background: $c_white--scd;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
         border-radius: 20px;
 
         &:hover {
-            background-color: #F5EDFF;
+            background-color: $c_white--thi;
         }
     }
 
     & .section2__elements .fa-solid {
-        color: #7E7E7E;
+        color: $c_drakgray;
         padding: 0 25px 0 35px;
     }
 
@@ -81,7 +77,7 @@
 }
 
 .section3 {
-    background-color: #F7F7F7;
+    background-color: $c_white--scd;
     padding-bottom: 50px;
 
     & h2 {
@@ -94,7 +90,7 @@
         margin: 20px 20px 0 20px;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
         border-radius: 15px;
-        background-color: white;
+        background-color: $c_white;
     }
 
     & .card img {
