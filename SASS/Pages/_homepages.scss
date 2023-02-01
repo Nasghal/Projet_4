@@ -1,7 +1,7 @@
 .section1 {
     @include position;
     text-align: center;
-    background-color: $c_white--scd;
+    background-color: $clr_gray;
 
     & h1 {
         width: 275px;
@@ -28,7 +28,7 @@
         justify-content: space-between;
         height: 300px;
 
-        & .align__button {
+        & .align__btn {
             @include position--4;
         }
 
@@ -40,31 +40,32 @@
             height: 15px;
             border-radius: 25px;
             padding: 5px;
-            color: $c_white;
-            background: $c_pink--purple;
+            color: $clr_white;
+            background: $clr_pink--purple;
         }
     }
 
     & a {
         text-decoration: none;
-        color: $c_black;
+        color: $clr_black;
     }
 
     & .section2__elements .icon {
         @include position--4;
         width: 320px;
         height: 75px;
-        background: $c_white--scd;
+        background: $clr_gray;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
         border-radius: 20px;
 
         &:hover {
-            background-color: $c_white--thi;
+            background-color: $clr_pink;
         }
+
     }
 
     & .section2__elements .fa-solid {
-        color: $c_drakgray;
+        color: $clr_drakgray;
         padding: 0 25px 0 35px;
     }
 
@@ -77,9 +78,14 @@
 }
 
 .section3 {
-    background-color: $c_white--scd;
+    background-color: $clr_gray;
     padding-bottom: 50px;
 
+    & a {
+        text-decoration: none;
+        color: $clr_black;
+    }
+    
     & h2 {
         padding: 50px 0 0 20px;
     }
@@ -90,7 +96,7 @@
         margin: 20px 20px 0 20px;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
         border-radius: 15px;
-        background-color: $c_white;
+        background-color: $clr_white;
     }
 
     & .card img {

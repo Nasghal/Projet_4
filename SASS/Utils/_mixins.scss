@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-mixine position--2 {
+@mixin position--2 {
     display: flex;
     justify-content: center;
     align-items: center;

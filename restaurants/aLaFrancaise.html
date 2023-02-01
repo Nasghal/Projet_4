@@ -12,18 +12,26 @@
 	</head>
     <body>
         <header>
-            <div class="box box__elem1"><p>ohmyfood</p></div>
-            <img class="header__menu" src="../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="pix of restaurant">
+            <div class="box box__elem1">
+                <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a> <!--go back to homepage-->
+                <p>ohmyfood</p>
+            </div>
+            <div class="header__pix">
+                <img class="header__menu" src="../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="pix of restaurant">
+            </div>
         </header>
 		<main>
-            <section class="section__menu"> <!--menus-->
-                <h1>A la française</h1>
+            <section class="section__menu">
+                <div class="position__like">
+                    <h1>A la française</h1>
+                    <i class="fa-regular fa-heart"></i> <!--like clic-->
+                </div>
 
                 <h2>ENTREES</h2>
                 <div class="selection__menu">
                     <card class="card__menu">
                         <h3>Tartare de poulpe acidulé</h3>
-                        <div class="price__menu"><p>Aux zestes d'orange</p>25€</div>
+                        <div class="price__menu"><p>Aux zestes d'orange</p><p>25€</div>
                     </card>
                     <card class="card__menu">
                         <h3>Velouté de légumes d'antan</h3>
@@ -67,7 +75,7 @@
                     </card>
                 </div>
 
-                <a href="#"><div class="menu__button"><button>Commander</button></div></a>
+                <a href="#"><div class="menu__btn"><button>Commander</button></div></a>
             </section>
 		</main>
         <footer>
